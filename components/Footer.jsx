@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 export default function Footer() {
     return <>
-    <footer class="p-4 md:px-8 md:py-8">
+    <footer class="py-8 md:px-8 md:py-8 text-white bg-[#424242]">
     <div class="sm:flex sm:items-center sm:justify-between">
-        <Link href='./'><h1 className='ml-10 text-4xl tracking-tighter hover:tracking-wide p-10' id='logo'>KEV</h1></Link>
+        <Link href='./'><h1 className='ml-10 text-4xl tracking-tighter hover:tracking-wide p-4' id='logo'>KEV</h1></Link>
         <ul class="flex flex-wrap px-[50px] gap-5  justify-around text-sm">
             <li>
                 <a href="https://www.instagram.com/saintkevinst/" class="mr-4 md:mr-6" target='_blank'><AiOutlineInstagram size={30}/></a>

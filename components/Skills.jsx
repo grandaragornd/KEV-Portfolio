@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Skills() {
   return (
-    <div className='w-full'>
+    <div className='w-full text-white'>
         <div className='text-center py-[40px]'>
             <h1 className='text-4xl py-3'>Skills</h1>
             <h1 className='text-xl py-3'>Overview of my skills and my knowledge!</h1>

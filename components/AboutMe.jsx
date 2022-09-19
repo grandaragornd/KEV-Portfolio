@@ -1,5 +1,5 @@
 import React from 'react'
-import pfplight from '../public/images/pfplight.jpg'
+import bwpfp from '../public/images/bwpfp.jpeg'
 import marcainstitut from '../public/images/marcainstitut.jpg'
 import codingschool from '../public/images/codingschool.png'
 import Image from 'next/image'
@@ -7,15 +7,16 @@ import Image from 'next/image'
 function AboutMe() {
   return (
     <>
-        <div className='pt-[200px] pb-[50px] flex gap-11 flex-col aboutflex mx-[50px] items-center'>   
+        <div className='pt-[200px] pb-[50px] flex gap-11 flex-col aboutflex mx-[50px] items-center text-white'>   
             <div className='drop-shadow-2xl w-auto'>
                 <Image 
-                className='rounded-full'
-                src={pfplight}
+                className='rounded-full grayscale'
+                src={bwpfp}
                 alt='picture of kevin'
                 priority
                 height='500px'
                 width='500px'
+                
                 />
             </div>
             <div className='w-full'>
@@ -26,13 +27,13 @@ function AboutMe() {
                 </p>
             </div>
         </div>
-        <div className='static border-b border-gray-300 my-4 py-3'></div>
-        <div className='py-[50px]'>
+        
+        <div className='py-[50px] text-white'>
             <div className='text-center'>
                 <h1 className='text-4xl py-[50px]'>Education</h1>
             </div>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-10 m-[50px]'>
-                <div className='flex gap-5'>
+                <div className='flex gap-5 hover:scale-110 ease-in duration-500 transform-none cursor-pointer'>
                     <a href='https://agora.xtec.cat/iesbernatmetge/' target='_blank'>
                         <Image 
                         src={marcainstitut}
@@ -49,7 +50,7 @@ function AboutMe() {
                     </div>
                     
                 </div>
-                <div className='flex gap-5'>
+                <div className='flex gap-5 hover:scale-110 ease-in duration-500 transform-none cursor-pointer'>
                     <a href='https://www.wbscodingschool.com/' target='_blank'>
                         <Image 
                         src={codingschool}
