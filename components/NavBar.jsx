@@ -43,9 +43,9 @@ import React, { useState } from 'react';
                             <div className='border-b border-gray-300 my-4'></div>
                         <div className='py-4 flex flex-col'>
                             <ul className=''>
-                            <Link href='./'><li className='ml-10 text-xl py-4'>Home</li></Link>
-                            <Link href='./about'><li className='ml-10 text-xl py-4'>About</li></Link>
-                            <Link href='./contact'><li className='ml-10 text-xl py-4'>Contact</li></Link>
+                            <Link href='./'><li className='ml-10 text-xl py-4' onClick={handleNav}>Home</li></Link>
+                            <Link href='./about'><li className='ml-10 text-xl py-4' onClick={handleNav}>About</li></Link>
+                            <Link href='./contact'><li className='ml-10 text-xl py-4' onClick={handleNav}>Contact</li></Link>
                             </ul>
                         </div>
                             <div className='border-b border-gray-300 my-4'></div>
