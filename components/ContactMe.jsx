@@ -7,7 +7,7 @@ function ContactMe() {
       <div className="pt-[150px] m-auto text-center text-white">
         <h1 className="text-4xl py-3">Send me a message!</h1>
         <p className="py-3 text-2xl">
-          I'm always open for any ideas and projects, I will reply as soon as possible!
+          I&apos;m always open for any ideas and projects, I will reply as soon as possible!
         </p>
       </div>
       {/*contact card*/}
@@ -15,6 +15,7 @@ function ContactMe() {
         <div className="flex contactflex shadow-xl shadow-black rounded-[50px]">
           <img
             src="https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="contact image cover"
             height="500px"
             width="550px"
             className="grayscale p-5 rounded-[50px]"

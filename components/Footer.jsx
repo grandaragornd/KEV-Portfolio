@@ -12,7 +12,7 @@ export default function Footer() {
                 <a href="https://www.instagram.com/saintkevinst/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiOutlineInstagram size={30}/></a>
             </li>
             <li className='hover:scale-75 ease-in duration-200 transform-none'>
-                <a href="https://www.linkedin.com/in/kevin-perea-enriquez/" clasName="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiFillLinkedin size={30}/></a>
+                <a href="https://www.linkedin.com/in/kevin-perea-enriquez/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiFillLinkedin size={30}/></a>
             </li>
             <li className='hover:scale-75 ease-in duration-200 transform-none'>
                 <a href="https://drive.google.com/file/d/1RX53MPaM7KKXMyJSv3ML7AdSK0zMttZu/view?usp=sharing" className="mr-4 hover:underline md:mr-6 " target='_blank' rel="noreferrer"><AiFillFile size={30}/></a>
