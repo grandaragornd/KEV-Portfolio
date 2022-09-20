@@ -3,10 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
-  headercolor{
-    background: rgb(33,33,33);
-    background: linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(255,106,0,0.5079073865874475) 49%, rgba(33,33,33,1) 100%);
+.backgroundheader{
+  background-image: url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1447&q=80')
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 }
 
@@ -92,5 +101,11 @@ a {
 @media (min-width: 490px) {
   .lastnameflex {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .hiddenlogo {
+      display: none;
   }
 }

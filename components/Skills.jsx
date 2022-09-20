@@ -4,12 +4,12 @@ import Image from 'next/image'
 
 function Skills() {
   return (
-    <div className='w-full text-white'>
+    <div className='w-full text-white '>
         <div className='text-center py-[40px]'>
             <h1 className='text-4xl py-3'>Skills</h1>
-            <h1 className='text-xl py-3'>Overview of my skills and my knowledge!</h1>
+            <h1 className='text-2xl py-3'>Overview of my skills and my knowledge!</h1>
         </div>
-        <div className='p-[20px] grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-10'>
+        <div className='p-[20px] grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-10 rounded-xl shadow-lg shadow-black p-5 m-12'>
           <div className='text-center'>
             <svg className="m-auto hover:scale-75 ease-in duration-200 transform-none" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="100px" height="100px"><path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"/><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"/></svg>
             <h1 className='text-3xl'>HTML5</h1>

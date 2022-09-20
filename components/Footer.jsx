@@ -4,27 +4,27 @@ import Link from 'next/link';
 
 export default function Footer() {
     return <>
-    <footer class="py-8 md:px-8 md:py-8 text-white bg-[#424242]">
-    <div class="sm:flex sm:items-center sm:justify-between">
-        <Link href='./'><h1 className='ml-10 text-4xl tracking-tighter hover:tracking-wide p-4' id='logo'>KEV</h1></Link>
-        <ul class="flex flex-wrap px-[50px] gap-5  justify-around text-sm">
-            <li>
-                <a href="https://www.instagram.com/saintkevinst/" class="mr-4 md:mr-6" target='_blank'><AiOutlineInstagram size={30}/></a>
+    <footer className="py-8 md:px-8 md:py-8 text-white bg-[#212121] hover:bg-[#424242] hover:ease-in duration-500 transform-none inline-block w-full">
+    <div className="sm:flex sm:items-center sm:justify-between">
+        <Link href='./'><h1 className='ml-10 text-4xl tracking-tighter hover:tracking-wide hiddenlogo' id='logo'>KEV</h1></Link>
+        <ul className="flex flex-wrap px-[50px] gap-5  justify-around text-sm">
+            <li className='hover:scale-75 ease-in duration-200 transform-none'>
+                <a href="https://www.instagram.com/saintkevinst/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiOutlineInstagram size={30}/></a>
             </li>
-            <li>
-                <a href="https://www.linkedin.com/in/kevin-perea-enriquez/" class="mr-4 md:mr-6" target='_blank'><AiFillLinkedin size={30}/></a>
+            <li className='hover:scale-75 ease-in duration-200 transform-none'>
+                <a href="https://www.linkedin.com/in/kevin-perea-enriquez/" clasName="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiFillLinkedin size={30}/></a>
             </li>
-            <li>
-                <a href="https://drive.google.com/file/d/1RX53MPaM7KKXMyJSv3ML7AdSK0zMttZu/view?usp=sharing" class="mr-4 hover:underline md:mr-6 " target='_blank'><AiFillFile size={30}/></a>
+            <li className='hover:scale-75 ease-in duration-200 transform-none'>
+                <a href="https://drive.google.com/file/d/1RX53MPaM7KKXMyJSv3ML7AdSK0zMttZu/view?usp=sharing" className="mr-4 hover:underline md:mr-6 " target='_blank' rel="noreferrer"><AiFillFile size={30}/></a>
             </li>
-            <li>
-                <a href="https://github.com/grandaragornd" class="hover:underline" target='_blank'><AiFillGithub size={30}/></a>
+            <li className='hover:scale-75 ease-in duration-200 transform-none'>
+                <a href="https://github.com/grandaragornd" className="hover:underline" target='_blank' rel="noreferrer"><AiFillGithub size={30}/></a>
             </li>
         </ul>
     </div>
     <div className='static border-b border-gray-300 my-4'></div>
-    <span class="block text-sm sm:text-center">© 2022 <a href="#" class="hover:underline">KEV Portofolio</a>
+    <span className="block text-sm">© 2022 <a href="#" className="hover:underline" rel="noreferrer">KEV Portofolio</a>
     </span>
-</footer>
+    </footer>
     </>
 }

@@ -7,7 +7,7 @@ import Image from 'next/image'
 function AboutMe() {
   return (
     <>
-        <div className='pt-[200px] pb-[50px] flex gap-11 flex-col aboutflex mx-[50px] items-center text-white'>   
+        <div className='pt-[200px] pb-[50px] flex gap-11 flex-col aboutflex mx-[50px] items-center text-white rounded-xl shadow-lg shadow-black p-7'>   
             <div className='drop-shadow-2xl w-auto'>
                 <Image 
                 className='rounded-full grayscale'
@@ -22,8 +22,8 @@ function AboutMe() {
             <div className='w-full'>
                 <h1 className='text-3xl py-4'>About Me</h1>
                 <p className='text-xl'>
-                Born in Cali, Colombia, raised in Barcelona, Spain and based in Hamburg, Germany! I'm a 21-year-old freelancer focused on Web Development and Programming, creating Landing Pages, Web Apps and Ecommerce Webpages.<br /> <br />My passion for programming began in 2016 in high school, when I was creating Android Apps with "App Inventor" and experimenting with electronics using Arduino.
-                In 2022, I studied at WBS Coding School, located in Berlin, Germany, where i .
+                I&apos;m a 21-year-old born in Cali, Colombia, raised in Barcelona, Spain and based in Hamburg, Germany focused on Web Development and Programming, creating Landing Pages, Web Apps and Ecommerce Webpages.<br /> <br />My passion for programming began in 2016 in high school, when I was creating Android Apps with App Inventor and experimenting with electronics using Arduino.
+                In 2022, I studied at WBS Coding School, located in Berlin, Germany, where I mastered my web-development, programming and design skills.
                 </p>
             </div>
         </div>
@@ -33,8 +33,8 @@ function AboutMe() {
                 <h1 className='text-4xl py-[50px]'>Education</h1>
             </div>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-10 m-[50px]'>
-                <div className='flex gap-5 hover:scale-110 ease-in duration-500 transform-none cursor-pointer'>
-                    <a href='https://agora.xtec.cat/iesbernatmetge/' target='_blank'>
+                <div className='flex gap-5 hover:bg-[#212121] rounded-xl shadow-lg shadow-black hover:ease-in duration-500 transform-none cursor-pointer w-auto p-5'>
+                    <a href='https://agora.xtec.cat/iesbernatmetge/' target='_blank' rel="noreferrer">
                         <Image 
                         src={marcainstitut}
                         height='150px'
@@ -50,8 +50,8 @@ function AboutMe() {
                     </div>
                     
                 </div>
-                <div className='flex gap-5 hover:scale-110 ease-in duration-500 transform-none cursor-pointer'>
-                    <a href='https://www.wbscodingschool.com/' target='_blank'>
+                <div className='flex gap-5 hover:bg-[#212121] rounded-xl shadow-lg shadow-black hover:ease-in duration-500 transform-none cursor-pointer w-auto p-5'>
+                    <a href='https://www.wbscodingschool.com/' target='_blank' rel="noreferrer">
                         <Image 
                         src={codingschool}
                         height='150px'
