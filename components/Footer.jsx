@@ -23,8 +23,8 @@ export default function Footer() {
         </ul>
     </div>
     <div className='static border-b border-gray-300 my-4'></div>
-    <span className="block text-sm">© 2022 <a href="#" className="hover:underline" rel="noreferrer">KEV Portofolio</a>
-    </span>
+    <a href="#" className="hover:underline" rel="noreferrer"><p className="block text-sm px-3">© 2022 KEV Portofolio
+    </p></a>
     </footer>
     </>
 }

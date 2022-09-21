@@ -24,7 +24,7 @@ import React, { useState } from 'react';
                     <Link href='./contact'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none"'>CONTACT</li></Link>
                 </ul>
                 
-                <div onClick={handleNav} className='md:hidden cursor-pointer'>
+                <div onClick={handleNav} className='md:hidden cursor-pointer px-4'>
                     <AiOutlineMenu size={25}/>
                 </div>
             </div>
