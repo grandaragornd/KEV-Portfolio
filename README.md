@@ -1,4 +1,4 @@
-KEV PORTOFOLIO
+KEV PORTFOLIO
 
 https://kev-portofolio-nextjs.herokuapp.com/
 

@@ -16,7 +16,7 @@ function Projects() {
                 <br />
             <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-10 text-white">
                 <div className="flex flex-col hover:bg-[#424242] bg-[#212121] justify-between rounded-lg shadow-md hover:scale-110 ease-in duration-500 transform-none">
-                        <a href='https://kevinspictures.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
+                        <a href='https://kevin-pictures.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
                             <Image 
                             src={backg}
                             alt='kevin pictures tumbnail'
