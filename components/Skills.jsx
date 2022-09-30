@@ -4,10 +4,9 @@ import Image from 'next/image'
 
 function Skills() {
   return (
-    <div className='w-full text-white '>
-        <div className='text-center py-[40px]'>
-            <h1 className='text-4xl py-3'>Skills</h1>
-            <h1 className='text-2xl py-3'>Overview of my skills and my knowledge!</h1>
+    <div className='w-full text-white backgroundskills bg-cover bg-fixed'>
+        <div className='text-center pt-[40px]'>
+            <h1 className='text-4xl'>Skills</h1>
         </div>
         <div className='p-[20px] grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-10 rounded-xl shadow-lg shadow-black p-5 m-12'>
           <div className='text-center'>

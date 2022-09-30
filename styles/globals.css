@@ -7,6 +7,13 @@
   background-image: url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1447&q=80')
 }
 
+.backgroundskills{
+  background-image: url('https://images.unsplash.com/photo-1635471885959-945b7c40251a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80')
+}
+.backgroundcontact{
+  background-image: url('https://images.unsplash.com/photo-1635776062360-af423602aff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80')
+}
+
 @layer utilities {
   /* Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
@@ -38,40 +45,15 @@
     @apply hidden;
   }
 
-  
-  /*#gradient-colombia{
-    @apply
-    background: #F2F211;
-    background: linear-gradient(to right, #F2F211 0%, #020D1F 50%, #CF1512 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-  }
-  #gradient-germany{
-    @apply
-    background: #000000;
-  background: linear-gradient(to right, #000000 0%, #FF3819 50%, #F2EB16 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-  }
-  #gradient-spain{
-    @apply
-    background: #F2F211;
-  background: linear-gradient(to right, #F2F211 0%, #F01111 50%, #F2F211 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-  }
-  */
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     scroll-behavior: smooth;
     
 }

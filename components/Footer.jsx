@@ -7,6 +7,7 @@ export default function Footer() {
     <footer className="py-8 md:px-8 md:py-8 text-white bg-[#212121] hover:bg-[#424242] hover:ease-in duration-500 transform-none inline-block w-full">
     <div className="sm:flex sm:items-center sm:justify-between">
         <Link href='./'><h1 className='ml-10 text-4xl tracking-tighter hover:tracking-wide hiddenlogo' id='logo'>KEV</h1></Link>
+        <a href="#" className="hover:underline hidden sm:block" rel="noreferrer"><p className="block text-sm px-3">© 2022 KEV Portofolio</p></a>
         <ul className="flex flex-wrap px-[50px] gap-5  justify-around text-sm">
             <li className='hover:scale-75 ease-in duration-200 transform-none'>
                 <a href="https://www.instagram.com/saintkevinst/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiOutlineInstagram size={30}/></a>
@@ -22,9 +23,6 @@ export default function Footer() {
             </li>
         </ul>
     </div>
-    <div className='static border-b border-gray-300 my-4'></div>
-    <a href="#" className="hover:underline" rel="noreferrer"><p className="block text-sm px-3">© 2022 KEV Portofolio
-    </p></a>
     </footer>
     </>
 }

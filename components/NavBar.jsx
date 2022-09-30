@@ -13,9 +13,9 @@ import React, { useState } from 'react';
       };
 
     return <>
-        <div className='fixed w-full h-20 bg-stone-900/40 z-[100] text-white'>
+        <div className='fixed w-full h-20 bg-black z-[100] text-white'>
             <div className='flex justify-between items-center w-full h-full px-2xl:px-16'>
-                <Link href='./'><h1 className='ml-10 text-4xl tracking-tighter hover:tracking-wide' id='logo'>KEV</h1></Link>
+                <Link href='./'><h1 className='ml-3 p-4 text-4xl tracking-tighter hover:tracking-wide font-semibold' id='logo'>KEV</h1></Link>
             <div>
             
                 <ul className='mr-10 hidden md:flex'>
@@ -34,20 +34,20 @@ import React, { useState } from 'react';
                 <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black ease-in duration-500'
                                          : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                     <div>
-                        <div className='p-10 flex w-full items-center justify-between bg-stone-900/40'>
+                        <div className='p-10 flex w-full items-center justify-between bg-black'>
                             <h1 className='text-4xl tracking-tighter hover:tracking-wide'>KEV</h1>
                             <div onClick={handleNav} className='rounded-full shadow-lg p-3 cursor-pointer'>
                             <AiOutlineClose size={25}/>
                             </div>
                         </div>
-                        <div className='py-4 flex flex-col bg-stone-900/40'>
-                            <ul className='uppercase'>
-                            <Link href='./'><li className='ml-10 text-xl py-4' onClick={handleNav}>Home</li></Link>
-                            <Link href='./about'><li className='ml-10 text-xl py-4' onClick={handleNav}>About</li></Link>
-                            <Link href='./contact'><li className='ml-10 text-xl py-4' onClick={handleNav}>Contact</li></Link>
+                        <div className='py-4 flex flex-col bg-black'>
+                            <ul className='uppercase text-center'>
+                            <Link href='./'><li className='text-xl py-10' onClick={handleNav}>Home</li></Link>
+                            <Link href='./about'><li className='text-xl py-10' onClick={handleNav}>About</li></Link>
+                            <Link href='./contact'><li className='text-xl py-10' onClick={handleNav}>Contact</li></Link>
                             </ul>
                         </div>
-                        <div className='flex items-center justify-around my-4 w-full sm:w-[80%] bg-stone-900/40'>
+                        <div className='flex items-center justify-around my-4 w-full sm:w-[80%] bg-black'>
                             <div className='rounded-full shadow-lg p-3 cursor-pointer'>
                             <AiFillFile size={25}/>
                             </div>

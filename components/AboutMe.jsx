@@ -62,7 +62,7 @@ function AboutMe() {
                     <div>
                         <h1 className='text-3xl'>WBS Coding School</h1>
                         <h2 className='text-xl'>Full Stack Web and App Development</h2>
-                        <h2 className='text-xl'>working</h2>
+                        <h2 className='text-md'>Certification of web design, development and deployment.</h2>
                         <p>2022, Hamburg, Germany</p>
                         <p></p>
                     </div>
