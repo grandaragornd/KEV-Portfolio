@@ -28,6 +28,7 @@ function Projects() {
                             <p className='mb-3 font-normal'>Collection of photographies taken, edited and displayed by me.</p>
                         </div>
                     </div>
+                    {/* 
                     <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hover:scale-110 ease-in duration-500 transform-none">
                         <a href='#' target='_blank' className='border-[-10px]"'>
                             <Image 
@@ -38,10 +39,11 @@ function Projects() {
                             layout='responsive'
                             />
                         </a>
+                        
                         <div className='p-4'>
-                            <h5 className="mb-2 text-3xl py-3">CovidPortal</h5>
-                            <p className="mb-3 text-xl">Covid19 Testing Booking App</p>
-                            <p className='mb-3 font-normal'>Choose between the avaliable options and book an appointment!</p>
+                            <h5 className="mb-2 text-3xl py-3"></h5>
+                            <p className="mb-3 text-xl"></p>
+                            <p className='mb-3 font-normal'></p>
                         </div>
                     </div>
                     <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hover:scale-110 ease-in duration-500 transform-none">
@@ -55,11 +57,12 @@ function Projects() {
                             />
                         </a>
                         <div className='p-4'>
-                            <h5 className="mb-2 text-3xl py-3">Daria&apos;s Paintings</h5>
-                            <p className="mb-3 text-xl">Collection of Art</p>
-                            <p className='mb-3 font-normal'>Handrawing and painttings made by Daria Paach</p>
+                            <h5 className="mb-2 text-3xl py-3"></h5>
+                            <p className="mb-3 text-xl"></p>
+                            <p className='mb-3 font-normal'></p>
                         </div>
                     </div>
+                    */}
                 </div>
 
             </div>
