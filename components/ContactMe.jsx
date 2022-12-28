@@ -5,7 +5,7 @@ function ContactMe() {
     <>
     <main className='no-scrollbar bg-no-repeat'>
       <div className="pt-[150px] m-auto text-center text-white">
-        <h1 className="text-4xl py-3">Send me a message!</h1>
+        <h1 className="text-4xl py-3">Send me a message</h1>
       </div>
       {/*contact card*/}
       <div className="flex items-center justify-center w-screen text-white p-[50px] my-[50px]">
