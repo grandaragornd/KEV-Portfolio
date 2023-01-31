@@ -1,6 +1,6 @@
 import React from 'react'
 import backg from '../public/images/backg.jpg'
-import covidportal from '../public/images/covidportal.jpg'
+import dashboard from '../public/images/dashboard.png'
 import dariaart from '../public/images/dariaart.jpeg'
 import Image from 'next/image'
 
@@ -28,24 +28,21 @@ function Projects() {
                             <p className='mb-3 font-normal'>Collection of photographies taken, edited and displayed by me.</p>
                         </div>
                     </div>
-                    {/* 
+                    
                     <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hover:scale-110 ease-in duration-500 transform-none">
-                        <a href='#' target='_blank' className='border-[-10px]"'>
+                        <a href='https://kev-dashboard.netlify.app/' target='_blank' className='border-[-10px]"'>
                             <Image 
-                            src={covidportal}
-                            alt='covidportal page tumbnail'
-                            height='415px'
-                            width='415px'
-                            layout='responsive'
+                            src={dashboard}
+                            alt='dashboard thumbnail'                           
                             />
                         </a>
-                        
                         <div className='p-4'>
-                            <h5 className="mb-2 text-3xl py-3"></h5>
-                            <p className="mb-3 text-xl"></p>
-                            <p className='mb-3 font-normal'></p>
+                            <h5 className="mb-2 text-3xl py-3">Dashboard</h5>
+                            <p className="mb-3 text-xl">Sales Overview</p>
+                            <p className='mb-3 font-normal'>Single web app with a display of sales information, customers and settings.</p>
                         </div>
                     </div>
+                    {/* 
                     <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hover:scale-110 ease-in duration-500 transform-none">
                         <a href='#' target='_blank' className='border-[-10px]"'>
                             <Image 
