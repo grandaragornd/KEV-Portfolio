@@ -1,7 +1,6 @@
 import React from 'react'
 import backg from '../public/images/backg.jpg'
 import dashboard from '../public/images/dashboard.png'
-import dariaart from '../public/images/dariaart.jpeg'
 import Image from 'next/image'
 
 function Projects() {
@@ -30,7 +29,7 @@ function Projects() {
                     </div>
                     
                     <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hover:scale-110 ease-in duration-500 transform-none">
-                        <a href='https://kev-dashboard.netlify.app/' target='_blank' className='border-[-10px]"'>
+                        <a href='https://kev-dashboard.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
                             <Image 
                             src={dashboard}
                             alt='dashboard thumbnail'                           
