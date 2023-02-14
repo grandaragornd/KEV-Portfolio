@@ -55,7 +55,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-family: 'Noto Sans', sans-serif;
     scroll-behavior: smooth;
-    
+  
+}
+
+body{
+  position: absolute;
 }
 
 a {

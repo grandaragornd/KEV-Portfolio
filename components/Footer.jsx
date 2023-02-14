@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return <>
-    <footer className="py-5 md:px-8 md:py-4 text-white bg-[#212121] hover:bg-[#424242] hover:ease-in duration-500 transform-none inline-block w-full">
+    <footer className="py-5 md:px-8 md:py-4 text-white bg-[#212121] hover:bg-[#424242] hover:ease-in duration-500 transform-none inline-block w-full bottom-0">
     <div className="sm:flex sm:items-center sm:justify-between">
         <Link href='./'><h1 className='ml-10 text-4xl tracking-tighter hover:tracking-wide hiddenlogo' id='logo'>KEV</h1></Link>
         <a href="#" className="hover:underline hidden sm:block" rel="noreferrer"><p className="block text-sm px-3">© 2022 KEV Portofolio</p></a>

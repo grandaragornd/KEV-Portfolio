@@ -13,7 +13,7 @@ import React, { useState } from 'react';
       };
 
     return <>
-        <div className='fixed w-full h-20 bg-black z-[100] text-white'>
+        <div className='fixed w-full h-20 bg-black z-[100] text-white inline-block'>
             <div className='flex justify-between items-center w-full h-full px-2xl:px-16'>
                 <Link href='./'><h1 className='ml-3 p-4 text-4xl tracking-tighter hover:tracking-wide font-semibold' id='logo'>KEV</h1></Link>
             <div>
@@ -22,6 +22,8 @@ import React, { useState } from 'react';
                     <Link href='./'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none"'>HOME</li></Link>
                     <Link href='./about'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none"'>ABOUT</li></Link>
                     <Link href='./contact'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none"'>CONTACT</li></Link>
+                    <Link href='./extra'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none"'>EXTRA</li></Link>
+                    
                 </ul>
                 
                 <div onClick={handleNav} className='md:hidden cursor-pointer px-4'>
