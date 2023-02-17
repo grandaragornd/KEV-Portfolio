@@ -7,8 +7,8 @@ import Skills from '../components/Skills'
 export default function Home() {
   return <>
     <Layout title='Kevin Portofolio' />
-    <Header />
-    <Projects/>
+      <Header />
+      <Projects/>
     <Skills />
   </>
   

@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .backgroundheader{
-  background-image: url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1447&q=80')
+  background-image: url('https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1490&q=80')
 }
 
 .backgroundskills{
@@ -25,6 +25,15 @@
     scrollbar-width: none; /* Firefox */
   }
 }
+
+#__next {
+  @apply h-full;
+}
+html,
+body {
+  @apply h-full;
+}
+
 
 @layer base{
   body{
@@ -56,10 +65,6 @@ body {
     font-family: 'Noto Sans', sans-serif;
     scroll-behavior: smooth;
   
-}
-
-body{
-  position: absolute;
 }
 
 a {

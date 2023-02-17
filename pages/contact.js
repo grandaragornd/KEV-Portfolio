@@ -5,7 +5,7 @@ import Layout from "../components/Layout"
 export default function contact () {
     return <>
     <Layout title="Contact">
-    <ContactMe />
+        <ContactMe />
     </Layout>
     </>
 }
