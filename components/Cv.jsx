@@ -6,7 +6,7 @@ const Cv = () => {
     <div className='w-full inline-block h-screen'>
         <div className='h-[10vh]'></div>
         <div className="flex justify-center w-full">
-        <Image 
+        <Image
                 src={bwpfp}
                 alt='picture of kevin'
                 height='200px'
