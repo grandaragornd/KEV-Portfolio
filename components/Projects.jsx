@@ -3,15 +3,16 @@ import backg from '../public/images/backg.jpg'
 import dashboard from '../public/images/dashboard.png'
 import bk from '../public/images/bk.png'
 import Image from 'next/image'
+import {AiOutlineFieldTime, AiOutlineSliders} from 'react-icons/ai'
 
 function Projects() {
   return (
     <div>
         <div className='text-center text-white w-auto py-[30px]'>
             <h1 className='text-4xl py-3'>Work</h1>
-            <h1 className='text-2xl py-3'>Check out my projects!</h1>
+            <h1 className='text-2xl py-3'>Personal Projects</h1>
         </div>
-            <div className='p-[50px]'>
+            <div className='px-[50px] pb-[50px]'>
                 
                 <br />
             <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-9 text-white">
@@ -26,6 +27,16 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">Kevin&apos;s Pictures</h5>
                             <p className="mb-3 text-xl">Photography Portofolio</p>
                             <p className='mb-3 font-normal'>Collection of photographies taken, edited and displayed by me.</p>
+                            <div className='grid grid-cols-2 gap-2 flex py-2'>
+                                <div className='flex items-center'>
+                                    <AiOutlineFieldTime size={20}/>
+                                    <p className='font-bold pl-[4px]'>3 weeks</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <AiOutlineSliders size={20}/>
+                                    <p className='font-bold pl-[4px]'>Tailwind | NextJS</p>
+                                </div>
+                            </div>
                         </div>
                 </div>
                     

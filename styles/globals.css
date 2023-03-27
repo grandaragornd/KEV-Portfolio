@@ -34,7 +34,6 @@ body {
   @apply h-full;
 }
 
-
 @layer base{
   body{
     @apply bg-[#121212] tracking-wide
@@ -66,6 +65,27 @@ body {
     scroll-behavior: smooth;
   
 }
+
+.hidenav{
+  opacity: 0;
+  transition: 0.25s;
+  transition-timing-function: ease-out;
+  
+}
+
+.shownav{
+  opacity: 1;
+  transition: 0.25s;
+  transition-timing-function: ease-in;
+}
+
+.navbg{
+  background: rgba(0, 0, 0, 0.5)
+}
+
+/*ANIMATIONS */
+
+
 
 a {
   color: inherit;
@@ -100,3 +120,4 @@ a {
       display: none;
   }
 }
+
