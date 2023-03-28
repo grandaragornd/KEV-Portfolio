@@ -13,16 +13,16 @@ function ContactMe() {
       </div>
       <div className="flex justify-center ">
           <div className="grid grid-cols-4 gap-4 text-white items-center pt-[40px]">
-            <Link href='https://www.instagram.com/saintkevinst/' target='_blank' >
+            <Link href='https://www.instagram.com/saintkevinst/' target='_blank' rel="noreferrer">
               <AiOutlineInstagram size={40} className='cursor-pointer hvr-float insta'/>
               </Link>
             <Link href='https://www.linkedin.com/in/kevin-perea-enriquez/' target='_blank' >
             <AiFillLinkedin size={40} className='cursor-pointer hvr-float linkedin'/>
               </Link>
-            <Link href='https://github.com/grandaragornd' target='_blank' >
+            <Link href='https://github.com/grandaragornd' target='_blank' rel="noreferrer" >
             <AiFillGithub size={40} className='cursor-pointer hvr-float github' />
               </Link>
-              <Link href='https://www.facebook.com/grandaragornd/' target='_blank' >
+              <Link href='https://www.facebook.com/grandaragornd/' target='_blank' rel="noreferrer" >
             <AiOutlineFacebook size={40} className='cursor-pointer hvr-float facebook' />
               </Link>
           
