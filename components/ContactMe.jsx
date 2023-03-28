@@ -38,7 +38,7 @@ function ContactMe() {
         <input name="email" type="text" className="feedback-input" placeholder="Email | Contact" required/>
         <textarea name="text" className="feedback-input" placeholder="Message" required></textarea>
         <div className="pb-5 text-center">
-        <input type='checkbox' className="cursor-pointer" required></input><span className="pl-4">I accept the <a href="https://getform.io/legal/privacy-policy" target='_blank' className="hover:text-green-500">GetForm.io</a> Privacy Policy.</span>
+        <input type='checkbox' className="cursor-pointer" required></input><span className="pl-4">I accept the <a href="https://getform.io/legal/privacy-policy" target='_blank' rel="noreferrer" className="hover:text-green-500">GetForm.io</a> Privacy Policy.</span>
         </div>
         <input type="submit" value="SUBMIT" className="hvr-float py-3" />
         <input type="reset" value="CLEAR" className="hvr-float text-center py-3" />
