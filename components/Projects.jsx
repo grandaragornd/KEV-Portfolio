@@ -4,6 +4,8 @@ import dashboard from '../public/images/dashboard.png'
 import bk from '../public/images/bk.png'
 import tajam from '../public/images/tajam.png'
 import sopago from '../public/images/sopago.png'
+import b2b from '../public/images/b2b.png'
+import mastermindlogin from '../public/images/mastermindlogin.png'
 import Image from 'next/image'
 import {AiOutlineFieldTime, AiOutlineSliders} from 'react-icons/ai'
 
@@ -88,6 +90,50 @@ function Projects() {
                                 <div className='flex items-center'>
                                     <AiOutlineSliders size={20}/>
                                     <p className='font-bold pl-[4px] w-full'>TailwindCSS | NextJS | GetForm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hvr-float">
+                        <a href='https://master--b2bproduct.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
+                            <Image 
+                            src={b2b}
+                            alt='bkinnen thumbnail'                           
+                            />
+                        </a>
+                        <div className='p-4'>
+                            <h5 className="mb-2 text-3xl py-3">B2B Landing Page</h5>
+                            <p className="mb-3 text-xl">Product idea presentation with filters and comparison data MockUp</p>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                                <div className='flex items-center'>
+                                    <AiOutlineFieldTime size={20}/>
+                                    <p className='font-bold pl-[4px]'>2 weeks</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <AiOutlineSliders size={20}/>
+                                    <p className='font-bold pl-[4px] w-full'>PicoCSS | Angular 15</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hvr-float">
+                        <a href='https://mastermindlogin.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
+                            <Image 
+                            src={mastermindlogin}
+                            alt='bkinnen thumbnail'                           
+                            />
+                        </a>
+                        <div className='p-4'>
+                            <h5 className="mb-2 text-3xl py-3">MasterMind Login</h5>
+                            <p className="mb-3 text-xl">Login Security formular for a game.</p>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                                <div className='flex items-center'>
+                                    <AiOutlineFieldTime size={20}/>
+                                    <p className='font-bold pl-[4px]'>1 week</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <AiOutlineSliders size={20}/>
+                                    <p className='font-bold pl-[4px] w-full'>HTML5 | JavaScript</p>
                                 </div>
                             </div>
                         </div>
