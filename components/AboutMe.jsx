@@ -7,7 +7,7 @@ import Image from 'next/image'
 function AboutMe() {
   return (
     <>
-        <div className='pt-[200px] pb-[50px] flex gap-11 flex-col aboutflex mx-[50px] items-center text-white rounded-xl shadow-lg shadow-black p-7'>   
+        <div className='pt-[160px] pb-[50px] flex gap-11 flex-col aboutflex mx-[50px] items-center text-white rounded-lg shadow-lg shadow-black p-7 bg-black'>   
             <div className='drop-shadow-2xl w-auto'>
                 <Image 
                 className='rounded-full grayscale'
@@ -19,7 +19,7 @@ function AboutMe() {
                 
                 />
             </div>
-            <div className='w-full'>
+            <div className='w-full '>
                 <h1 className='text-3xl py-4'>About Me</h1>
                 <p className='text-xl'>
                 I&apos;m a 21-year-old born in Cali, Colombia, raised in Barcelona, Spain and based in Hamburg, Germany focused on Web Development and Programming, creating Landing Pages, Web Apps and Ecommerce Webpages.<br /> <br />My passion for programming began in 2016 in high school, when I was creating Android Apps with App Inventor and experimenting with electronics using Arduino.
@@ -33,8 +33,8 @@ function AboutMe() {
                 <h1 className='text-4xl py-[50px]'>Education</h1>
             </div>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-10 m-[50px]'>
-                <div className='flex gap-5 hover:bg-[#212121] rounded-xl shadow-lg shadow-black hover:ease-in duration-500 transform-none cursor-pointer w-auto p-5'>
-                    <a href='https://agora.xtec.cat/iesbernatmetge/' target='_blank' rel="noreferrer">
+                <div className='flex gap-5 bg-black hover:bg-[#212121] rounded-xl shadow-lg shadow-black hover:ease-in duration-500 transform-none cursor-pointer w-auto p-5 '>
+                    <a href='https://agora.xtec.cat/iesbernatmetge/' target='_blank' rel="noreferrer" className='hvr-float'>
                         <Image 
                         src={marcainstitut}
                         height='150px'
@@ -50,8 +50,8 @@ function AboutMe() {
                     </div>
                     
                 </div>
-                <div className='flex gap-5 hover:bg-[#212121] rounded-xl shadow-lg shadow-black hover:ease-in duration-500 transform-none cursor-pointer w-auto p-5'>
-                    <a href='https://www.wbscodingschool.com/' target='_blank' rel="noreferrer">
+                <div className='flex bg-black gap-5 hover:bg-[#212121] rounded-xl shadow-lg shadow-black hover:ease-in duration-500 transform-none cursor-pointer w-auto p-5'>
+                    <a href='https://www.wbscodingschool.com/' target='_blank' rel="noreferrer" className='hvr-float'>
                         <Image 
                         src={codingschool}
                         height='150px'
