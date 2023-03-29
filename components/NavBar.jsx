@@ -73,7 +73,6 @@ import React, {useState, useEffect } from 'react'
                             <Link href='./'><li className='text-xl py-10' onClick={handleNav}>Home</li></Link>
                             <Link href='./about'><li className='text-xl py-10' onClick={handleNav}>About</li></Link>
                             <Link href='./contact'><li className='text-xl py-10' onClick={handleNav}>Contact</li></Link>
-                            <Link href='./extra'><li className='text-xl py-10' onClick={handleNav}>Extra</li></Link>
                             </ul>
                         </div>
                         <div className='flex items-center justify-around my-4 w-full sm:w-[80%]'>

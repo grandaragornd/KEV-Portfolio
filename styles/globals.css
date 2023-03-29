@@ -88,6 +88,12 @@ body {
   background-position: center;
 }
 
+/* accent colors */
+.hovericons:hover{
+  fill: #0A66C2;
+  cursor: pointer;
+}
+
 .hidenav{
   opacity: 0;
   transition: 0.25s;
