@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Skills() {
   return (
-    <div className='w-full text-white backgroundskills bg-cover bg-fixed'>
+    <div className='w-full text-white backgroundskills bg-cover bg-fixed intro'>
         <div className='text-center pt-[40px]'>
             <h1 className='text-4xl'>Skills</h1>
         </div>

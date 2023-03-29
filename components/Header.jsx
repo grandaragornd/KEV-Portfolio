@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <>
-    <div className='w-full text-center backgroundcontact bg-cover bg-fixed'>
+    <div className='w-full text-center backgroundcontact bg-cover bg-fixed intro'>
     <div className='py-[200px] flex-col place-content-center text-white animate__animated animate__slideInUp'>
         <h1 className='text-4xl py-3 textclear'>I&apos;m Kevin Perea Enriquez</h1>
         <h1 className='text-5xl py-5 hvr-float cursor-pointer textclear'>Fullstack Developer</h1>
