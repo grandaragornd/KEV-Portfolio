@@ -33,10 +33,10 @@ function ContactMe() {
       {/*contact card*/}
       <div className="flex items-center justify-center w-screen text-white my-[50px] m-[30px]">
       <form action="https://getform.io/f/86537289-4693-4bb5-b5fa-ef02736c1a18" method="POST" className="hvr-float">      
-        <input name="name" type="text" className="feedback-input" placeholder="Name" required/>
+        <input name="name" type="text" className="feedback-input" placeholder="Name*" required/>
         <input name="subject" type="text" className="feedback-input" placeholder="Subject" />    
-        <input name="email" type="text" className="feedback-input" placeholder="Email | Contact" required/>
-        <textarea name="text" className="feedback-input" placeholder="Message" required></textarea>
+        <input name="email" type="text" className="feedback-input" placeholder="Email | Contact*" required/>
+        <textarea name="text" className="feedback-input" placeholder="Message*" required></textarea>
         <div className="pb-5 text-center">
         <input type='checkbox' className="cursor-pointer" required></input><span className="pl-4">I accept the <a href="https://getform.io/legal/privacy-policy" target='_blank' rel="noreferrer" className="hover:text-green-500">GetForm.io</a> Privacy Policy.</span>
         </div>

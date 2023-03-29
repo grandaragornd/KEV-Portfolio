@@ -187,11 +187,12 @@ a {
 }
 
 
-@media (min-width: 1100px) {
-  .aboutflex {
-      flex-direction: row;
+@media (min-width: 950px) {
+  .sm\:aboutflex {
+      display: flex;
   }
 }
+
 
 @media (max-width: 994px) {
   .contactflex {
@@ -224,7 +225,7 @@ a {
 }
 
 .facebook:hover{
-  fill: blue;
+  fill: #0A66C2;
 }
 
 .file:hover{
