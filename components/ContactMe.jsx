@@ -6,10 +6,10 @@ import { AiOutlineInstagram, AiFillLinkedin, AiOutlineFacebook, AiFillGithub } f
 function ContactMe() {
   return (
     <>
-    <main className='inline-block backgroundcontact bg-cover'>
+    <main className='inline-block bg-black'>
       <div className="pt-[150px] m-auto text-center text-white">
-        <h1 className="text-4xl py-3 textclear">Contact Form</h1>
-        <p className="text-2xl py-2 textclear">Send me a message!</p>
+        <h1 className="text-4xl py-3 textclear font-bold">Contact Form</h1>
+        <p className="text-2xl py-2 textclear font-semibold">Send me a message!</p>
       </div>
       <div className="flex justify-center ">
           <div className="grid grid-cols-4 gap-4 text-white items-center pt-[40px]">
@@ -31,7 +31,7 @@ function ContactMe() {
       </div>
       
       {/*contact card*/}
-      <div className="flex items-center justify-center w-screen text-white my-[50px] ">
+      <div className="flex items-center justify-center w-screen text-white my-[50px] m-[30px]">
       <form action="https://getform.io/f/86537289-4693-4bb5-b5fa-ef02736c1a18" method="POST" className="hvr-float">      
         <input name="name" type="text" className="feedback-input" placeholder="Name" required/>
         <input name="subject" type="text" className="feedback-input" placeholder="Subject" />    
@@ -40,8 +40,8 @@ function ContactMe() {
         <div className="pb-5 text-center">
         <input type='checkbox' className="cursor-pointer" required></input><span className="pl-4">I accept the <a href="https://getform.io/legal/privacy-policy" target='_blank' rel="noreferrer" className="hover:text-green-500">GetForm.io</a> Privacy Policy.</span>
         </div>
-        <input type="submit" value="SUBMIT" className="hvr-float py-3" />
-        <input type="reset" value="CLEAR" className="hvr-float text-center py-3" />
+        <input type="submit" value="SUBMIT" className="hvr-float py-3 bg-white text-black sm:bg-black sm:text-white" />
+        <input type="reset" value="CLEAR" className="hvr-float text-center py-3"/>
       </form>
       </div>
       </main>

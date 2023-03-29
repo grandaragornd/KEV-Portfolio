@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 export default function Footer() {
     return <>
-    <footer className="py-3 md:px-8 md:py-4 text-white bg-black hover:ease-in duration-500 transform-none inline-block w-full ">
-    <div className="sm:flex sm:items-center sm:justify-between">
+    <footer className="py-3 md:px-8 md:py-4 text-white bg-black inline-block w-full">
+    <div className="flex w-full justify-around">
         <Link href='./'><h1 className='ml-10 text-4xl hvr-float cursor-pointer hiddenlogo' id='logo'>KEV</h1></Link>
-        <a href="#" className="hover:underline hidden sm:block" rel="noreferrer"><p className="block text-sm px-3">© 2022 KEV Portofolio</p></a>
-        <ul className="flex flex-wrap px-[50px] gap-5  justify-around text-sm">
+        <a href="#" className="hover:underline hidden sm:block" rel="noreferrer"><p className="block text-sm pl-[80px] pt-[7px]">© 2022 KEV Portofolio</p></a>
+        <ul className="flex gap-5 text-sm">
             <li className='hvr-float'>
                 <a href="https://www.instagram.com/saintkevinst/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiOutlineInstagram size={30} className='insta'/></a>
             </li>

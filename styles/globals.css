@@ -37,12 +37,10 @@
 }
 
 
-#__next {
-  @apply h-full;
-}
-html,
+
 body {
   @apply h-full;
+  @apply absolute;
 }
 
 @layer base{
@@ -130,11 +128,11 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background-color: transparent;
+  
   border-radius:5px;
   border:0;
   cursor:pointer;
-  color:white;
+  
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;

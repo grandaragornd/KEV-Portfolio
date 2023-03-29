@@ -30,7 +30,7 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">Kevin&apos;s Pictures</h5>
                             <p className="mb-3 text-xl">Photography Portofolio</p>
                             <p className='mb-3 font-normal'>Collection of photographies taken, edited and displayed by me.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold pl-[4px]'>3 weeks</p>
@@ -55,7 +55,7 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">Dashboard</h5>
                             <p className="mb-3 text-xl">Sales Overview</p>
                             <p className='mb-3 font-normal'>Single web app with a display of sales information, customers and settings.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold pl-[4px]'>1 month</p>
@@ -79,10 +79,10 @@ function Projects() {
                             />
                         </a>
                         <div className='p-4'>
-                            <h5 className="mb-2 text-3xl py-3">BK Innen und Ausenputz</h5>
+                            <h5 className="mb-2 text-3xl py-3">BK Innenputz Fassaden GmbH</h5>
                             <p className="mb-3 text-xl">Construction services overview</p>
                             <p className='mb-3 font-normal'>Form, services list and kontakt information.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold pl-[4px]'>2 months</p>
@@ -104,7 +104,7 @@ function Projects() {
                         <div className='p-4'>
                             <h5 className="mb-2 text-3xl py-3">B2B Landing Page</h5>
                             <p className="mb-3 text-xl">Product idea presentation with filters and comparison data MockUp</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold pl-[4px]'>2 weeks</p>
@@ -126,7 +126,7 @@ function Projects() {
                         <div className='p-4'>
                             <h5 className="mb-2 text-3xl py-3">MasterMind Login</h5>
                             <p className="mb-3 text-xl">Login Security formular for a game.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold pl-[4px]'>1 week</p>
@@ -156,7 +156,7 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">SOPAGO</h5>
                             <p className="mb-3 text-xl">Cloud-based platform</p>
                             <p className='mb-3 font-normal'>A digital tool that helps hotels and guests connect.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold pl-[4px]'>In development</p>
@@ -181,7 +181,7 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">Landing Page MockUp</h5>
                             <p className="mb-3 text-xl">Agency Tajam</p>
                             <p className='mb-3 font-normal'>Basic landing page layout.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold pl-[4px]'>3 days</p>
