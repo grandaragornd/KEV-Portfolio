@@ -2,6 +2,7 @@ import React from 'react'
 import bwpfp from '../public/images/bwpfp.jpeg'
 import marcainstitut from '../public/images/marcainstitut.jpg'
 import codingschool from '../public/images/codingschool.png'
+import flowdigital from '../public/images/flowdigital.png'
 import Image from 'next/image'
 import {IoIosSchool, IoIosDesktop, IoIosBriefcase, IoIosTime, IoIosBookmarks, IoMdAttach} from 'react-icons/io'
 
@@ -30,21 +31,25 @@ function AboutMe() {
             </div>
         </div>
     </main>
-    <div className='text-white m-5 max-w-full'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 items-center'>
+
+
+    <div className='text-white m-5'>
+
+        <div className='grid grid-cols-1 sm:grid-cols-2 animate__animated animate__slideInUp'>
             <div className='flex-col items-center'>
-                <div className='flex justify-center'>
-                    <IoIosSchool size={40} className='hover:fill-[red] hvr-float'/>
+                <div className='flex justify-center py-[30px]'>
+                    <IoIosSchool size={40}/>
                     <h2 className='text-3xl pl-4'>Education</h2>  
                 </div>
-                <div className='rounded-lg p-[30px] m-[20px] flex items-center justify-center'>
+                <div className='grid sm:grid-cols-2 grid-cols-1 gap-[30px] items-start py-[30px]'>
+                <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
                     <Image
                         src={marcainstitut}
-                        height='150'
-                        width='150'
+                        height='200'
+                        width='200'
                         className='rounded-xl'
                     />
-                    <div className='pl-[20px]'>
+                    <div>
                         <h3 className='text-2xl'>IES Bernat Metge</h3>
                         <p className='py-1'>Secondary School Diploma</p>
                         <div className='flex items-center py-1'>
@@ -58,20 +63,14 @@ function AboutMe() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='flex-col items-center'>
-                <div className='flex justify-center'>
-                    <IoIosBriefcase size={40} className='hovericons hvr-float'/>
-                    <h2 className='text-3xl pl-4'>Work Experience</h2>
-                </div>
-                <div className='rounded-lg p-[30px] m-[20px] flex items-center justify-center'>
-                    <Image
+                <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
+                <Image
                         src={codingschool}
-                        height='150'
-                        width='150'
+                        height='200'
+                        width='200'
                         className='rounded-xl'
                     />
-                    <div className='pl-[20px]'>
+                    <div>
                         <h3 className='text-2xl'>WBS Coding School</h3>
                         <p className='py-1'>Frontend and Backend Programming</p>
                         <div className='flex items-center py-1'>
@@ -86,6 +85,40 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
+            </div>
+
+
+
+            <div className='flex-col items-center'>
+                <div className='flex justify-center py-[30px]'>
+                    <IoIosBriefcase size={40}/>
+                    <h2 className='text-3xl pl-4'>Work Experience</h2>
+                </div>
+                <div className='grid sm:grid-cols-2 grid-cols-1 gap-[30px] items-start py-[30px]'>
+                <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
+                    <Image
+                        src={flowdigital}
+                        height='200'
+                        width='200'
+                        className='rounded-xl'
+                    />
+                    <div className=''>
+                        <h3 className='text-2xl'>Flow Digital</h3>
+                        <p className='py-1'>Fullstack Developer</p>
+                        <div className='flex items-center py-1'>
+                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold'>Software Developer</span>
+                        </div>
+                        <div className='flex items-center py-1'>
+                            <IoIosTime size={20} /><span className='pl-2 font-semibold'>2023 - Present</span>
+                        </div>
+                        <div className='flex items-center py-1'>
+                            <IoMdAttach size={20} /><a href='https://www.flow-consult.de/' target='_blank' rel='noreferrer'> <span className='pl-2 hover:text-[#007398] rounded-lg font-semibold'>Website</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
         </div>
     </div>
     </>
