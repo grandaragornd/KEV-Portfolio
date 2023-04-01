@@ -15,8 +15,8 @@ function Skills() {
               <BsCodeSlash size={60} />
             </div>
             <div>
-              <h2 className='text-2xl py-[10px] font-semibold'>Code</h2>
-              <ul>
+              <h2 className='text-3xl py-[10px] font-semibold'>Code</h2>
+              <ul className='text-xl'>
                 <li className='py-2'>Website Structure</li>
                 <li className='py-2'>Debug Code</li>
                 <li className='py-2'>Data Bases (Backend)</li>
@@ -28,8 +28,8 @@ function Skills() {
               <BsUiRadios size={60} />
             </div>
             <div>
-              <h2 className='text-2xl py-[10px] font-semibold'>Work</h2>
-              <ul>
+              <h2 className='text-3xl py-[10px] font-semibold'>Work</h2>
+              <ul className='text-xl'>
                 <li className='py-2'>Cooperative</li>
                 <li className='py-2'>Time management</li>
                 <li className='py-2'>Remote work</li>
@@ -41,8 +41,8 @@ function Skills() {
               <BsLayoutWtf size={60} />
             </div>
             <div>
-              <h2 className='text-2xl py-[10px] font-semibold'>Design</h2>
-              <ul>
+              <h2 className='text-3xl py-[10px] font-semibold'>Design</h2>
+              <ul className='text-xl'>
                 <li className='py-2'>Clean, unique and distinctive</li>
                 <li className='py-2'>Color selection</li>
                 <li className='py-2'>Animations | Hovers</li>
