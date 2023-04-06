@@ -43,12 +43,12 @@ import React, {useState, useEffect } from 'react'
     <div className='w-full h-20 z-[100] fixed'>
         <nav className={`${visible ? 'shownav navbg' : 'hidenav'}`}>
             <div className='flex justify-between items-center w-full text-white'>
-                <Link href='./'><h1 className='ml-3 p-4 text-4xl hvr-float font-semibold' id='logo'>KEV</h1></Link>
+                <Link href='./'><h1 className='ml-3 p-4 text-4xl font-semibold' id='logo'>KEV</h1></Link>
             <div>
                 <ul className='mr-10 hidden md:flex text-xl'>
-                    <Link href='./'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none'>HOME</li></Link>
-                    <Link href='./about'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none"'>ABOUT</li></Link>
-                    <Link href='./contact'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none"'>CONTACT</li></Link>
+                    <Link href='./'><li className='ml-10 text-md hover:ease-in duration-200 transform-none hoverbutton px-3 py-1'>HOME</li></Link>
+                    <Link href='./about'><li className='ml-10 text-md hover:ease-in duration-200 transform-none hoverbutton px-3 py-1'>ABOUT</li></Link>
+                    <Link href='./contact'><li className='ml-10 text-md hover:ease-in duration-200 transform-none hoverbutton px-3 py-1'>CONTACT</li></Link>
                     {/*<Link href='./extra'><li className='ml-10 text-md hover:scale-75 ease-in duration-200 transform-none"'>EXTRA</li></Link>*/}
                 </ul>
                 <div onClick={handleNav} className='md:hidden cursor-pointer px-4'>

@@ -35,8 +35,11 @@ body {
 
 @layer base{
   body{
-    @apply bg-[#0e1111] tracking-wide
-    
+    @apply bg-[#08090a] tracking-wide;
+  }
+  
+  .accent{
+    color: #BA203C;
   }
   
   li {
@@ -52,6 +55,12 @@ body {
     @apply hidden;
   }
 
+}
+
+.hoverbutton:hover{
+  color: #212121;
+  background-color: azure;
+  border-radius: 5px;
 }
 
 html,
@@ -272,4 +281,61 @@ a {
   .intro {
     background-attachment: scroll;
   }
+}
+
+
+.slider-wrapper {
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider{
+  height: 50px;
+  padding-left:15px;
+}
+.slider-text1 {
+  animation: slide 5s linear infinite;
+}
+.slider-text1:hover {
+  background-color: azure;
+  color: #212121;
+  cursor: pointer;
+}
+.slider-text2:hover {
+  background-color: azure;
+  color: #212121;
+  cursor: pointer;
+}
+.slider-text3:hover {
+  background-color: azure;
+  color: #212121;
+  cursor: pointer;
+}
+.slider-text4:hover {
+  background-color: azure;
+  color: #212121;
+  cursor: pointer;
+}
+.slider div {
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 7px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.slider{
+  height: 50px;
+  overflow: hidden;   /* hide the text outside the slider div area */
+}
+
+@keyframes slide {
+  0% {margin-top:-300px;}
+  5% {margin-top:-200px;}  /* 5% delay */
+  33% {margin-top:-200px;}
+  38% {margin-top:-100px;} /* 5% delay */
+  66% {margin-top:-100px;}
+  71% {margin-top:0px;} /* 5% delay */
+  100% {margin-top:0px;}
 }
