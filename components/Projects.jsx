@@ -31,7 +31,7 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">Kevin&apos;s Pictures</h5>
                             <p className="mb-3 text-xl">Photography Portofolio</p>
                             <p className='mb-3 font-normal'>Collection of photographies taken, edited and displayed by me.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-3 flex py-2 gap-3'>
+                            <div className='flex flex-col py-2'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold p-3'>3 weeks</p>
@@ -43,7 +43,7 @@ function Projects() {
                                 <div className='flex items-center'>
                                     <AiOutlineLink size={20} />
                                 <a href='https://kevin-pictures.netlify.app/' target='_blank' rel="noreferrer">
-                                    <span className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</span>
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
                                 </a>
                                 </div>
                                 
@@ -63,7 +63,7 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">Dashboard</h5>
                             <p className="mb-3 text-xl">Sales Overview</p>
                             <p className='mb-3 font-normal'>Single web app with a display of sales information, customers and settings.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-3 flex py-2 gap-3'>
+                            <div className='flex flex-col py-2'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold p-3'>1 month</p>
@@ -75,7 +75,7 @@ function Projects() {
                                 <div className='flex items-center'>
                                     <AiOutlineLink size={20} />
                                 <a href='https://kev-dashboard.netlify.app/' target='_blank' rel="noreferrer">
-                                    <span className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</span>
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
                                 </a>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">BK Innenputz Fassaden GmbH</h5>
                             <p className="mb-3 text-xl">Construction services overview</p>
                             <p className='mb-3 font-normal'>Form, services list and kontakt information.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-3 flex py-2 gap-3'>
+                            <div className='flex flex-col py-2'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold p-3'>2 months</p>
@@ -108,7 +108,7 @@ function Projects() {
                                 <div className='flex items-center'>
                                     <AiOutlineLink size={20} />
                                 <a href='https://bkinnenfassadengmbh.netlify.app/' target='_blank' rel="noreferrer">
-                                    <span className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</span>
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
                                 </a>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@ function Projects() {
                         <div className='p-4'>
                             <h5 className="mb-2 text-3xl py-3">B2B Landing Page</h5>
                             <p className="mb-3 text-xl">Product idea presentation with filters and comparison data MockUp</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-3 flex py-2 gap-3'>
+                            <div className='flex flex-col py-2'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold p-3'>2 weeks</p>
@@ -136,7 +136,7 @@ function Projects() {
                                 <div className='flex items-center'>
                                     <AiOutlineLink size={20} />
                                 <a href='https://master--b2bproduct.netlify.app/' target='_blank' rel="noreferrer">
-                                    <span className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</span>
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
                                 </a>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@ function Projects() {
                         <div className='p-4'>
                             <h5 className="mb-2 text-3xl py-3">MasterMind Login</h5>
                             <p className="mb-3 text-xl">Login Security formular for a game.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-3 flex py-2 gap-3'>
+                            <div className='flex flex-col py-2'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold p-3'>1 week</p>
@@ -164,7 +164,7 @@ function Projects() {
                                 <div className='flex items-center'>
                                     <AiOutlineLink size={20} />
                                 <a href='https://mastermindlogin.netlify.app/' target='_blank' rel="noreferrer">
-                                    <span className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</span>
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
                                 </a>
                                 </div>
                             </div>
@@ -188,14 +188,20 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">SOPAGO</h5>
                             <p className="mb-3 text-xl">Cloud-based platform</p>
                             <p className='mb-3 font-normal'>A digital tool that helps hotels and guests connect.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
+                            <div className='flex flex-col py-2'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold p-3'>In development</p>
                                 </div>
                                 <div className='flex items-center'>
                                     <AiOutlineSliders size={20}/>
-                                    <p className='font-bold p-3'>Typescript | Anguar | PHP</p>
+                                    <p className='font-bold p-3'>Typescript | Anguar</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <AiOutlineLink size={20} />
+                                <a href='https://www.sopago.app/' target='_blank' rel="noreferrer">
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
+                                </a>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +219,7 @@ function Projects() {
                             <h5 className="mb-2 text-3xl py-3">Landing Page MockUp</h5>
                             <p className="mb-3 text-xl">Agency Tajam</p>
                             <p className='mb-3 font-normal'>Basic landing page layout.</p>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 flex py-2 gap-3'>
+                            <div className='flex flex-col py-2'>
                                 <div className='flex items-center'>
                                     <AiOutlineFieldTime size={20}/>
                                     <p className='font-bold p-3'>3 days</p>
@@ -225,7 +231,7 @@ function Projects() {
                                 <div className='flex items-center'>
                                     <AiOutlineLink size={20} />
                                 <a href='https://psd-to-html-groupproject.netlify.app/' target='_blank' rel="noreferrer">
-                                    <span className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</span>
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
                                 </a>
                                 </div>
                             </div>
