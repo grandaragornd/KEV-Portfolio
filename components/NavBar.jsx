@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { AiOutlineClose, AiOutlineMenu, AiFillFile, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu, AiFillFile, AiFillLinkedin, AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
 import React, {useState, useEffect } from 'react'
 
 
@@ -76,15 +76,20 @@ import React, {useState, useEffect } from 'react'
                             </ul>
                         </div>
                         <div className='flex items-center justify-around my-4 w-full sm:w-[80%]'>
-                            <div className='rounded-full shadow-lg p-3 cursor-pointer'>
-                            <AiFillFile size={25}/>
-                            </div>
-                            <div className='rounded-full shadow-lg p-3 cursor-pointer'>
-                            <AiFillLinkedin size={25}/>
-                            </div>
-                            <div className='rounded-full shadow-lg p-3 cursor-pointer'>
-                                <AiFillGithub size={25}/>
-                            </div>
+                        <ul className="flex gap-5 text-sm text-white">
+            <li className='hvr-float'>
+                <a href="https://www.instagram.com/saintkevinst/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiOutlineInstagram size={30} className='insta'/></a>
+            </li>
+            <li className='hvr-float'>
+                <a href="https://www.linkedin.com/in/kevin-perea-enriquez/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiFillLinkedin size={30} className='linkedin'/></a>
+            </li>
+            <li className='hvr-float'>
+                <a href="https://drive.google.com/file/d/1VyB_28H4yR7V_m9imxYZAQ01L1vts5aj/view?usp=share_link" className="mr-4 hover:underline md:mr-6 " target='_blank' rel="noreferrer"><AiFillFile size={30} className='file'/></a>
+            </li>
+            <li className='hvr-float'>
+                <a href="https://github.com/grandaragornd" className="hover:underline" target='_blank' rel="noreferrer"><AiFillGithub size={30} className='github'/></a>
+            </li>
+        </ul>
                         </div>
                     </div>
                 </div>
