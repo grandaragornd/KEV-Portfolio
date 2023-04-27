@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="py-3 md:px-8 md:py-4 text-white bg-[#0e1111] inline-block w-full">
     <div className="flex w-full justify-around">
         <Link href='./'><h1 className='ml-10 text-4xl hvr-float cursor-pointer hiddenlogo' id='logo'>KEV</h1></Link>
-        <a href="#" className="hover:underline hidden sm:block" rel="noreferrer"><p className="block text-sm pl-[80px] pt-[7px]">© 2022 KEV Portofolio</p></a>
+        <a href="#" className="hover:underline hidden sm:block" rel="noreferrer"><p className="block text-sm pl-[80px] pt-[7px]">© 2023 KEV Portofolio</p></a>
         <ul className="flex gap-5 text-sm">
             <li className='hvr-float'>
                 <a href="https://www.instagram.com/saintkevinst/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiOutlineInstagram size={30} className='insta'/></a>

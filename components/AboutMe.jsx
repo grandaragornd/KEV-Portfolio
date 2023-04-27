@@ -3,6 +3,7 @@ import bwpfp from '../public/images/bwpfp.jpeg'
 import marcainstitut from '../public/images/marcainstitut.jpg'
 import codingschool from '../public/images/codingschool.png'
 import flowdigital from '../public/images/flowdigital.png'
+import cfp from '../public/images/cfp.jpg'
 import Image from 'next/image'
 import {IoIosSchool, IoIosDesktop, IoIosBriefcase, IoIosTime, IoIosBookmarks, IoMdAttach} from 'react-icons/io'
 
@@ -116,8 +117,30 @@ function AboutMe() {
                         </div>
                     </div>
                 </div>
+                <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
+                    <Image
+                        src={cfp}
+                        height='200'
+                        width='200'
+                        className='rounded-xl'
+                    />
+                    <div className=''>
+                        <h3 className='text-2xl'>Corona FreePass</h3>
+                        <p className='py-1'>Tester</p>
+                        <div className='flex items-center py-1'>
+                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold'>Rapid Antigen & PCR tester</span>
+                        </div>
+                        <div className='flex items-center py-1'>
+                            <IoIosTime size={20} /><span className='pl-2 font-semibold'>2021 - 2022</span>
+                        </div>
+                        <div className='flex items-center py-1'>
+                            <IoMdAttach size={20} /><a href='https://www.coronafreepass.de/' target='_blank' rel='noreferrer'> <span className='pl-2 hover:text-[#b20aff] rounded-lg font-semibold'>Website</span></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
+            
 
         </div>
     </div>
