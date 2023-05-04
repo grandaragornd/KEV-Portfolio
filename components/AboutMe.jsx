@@ -1,5 +1,5 @@
 import React from 'react'
-import bwpfp from '../public/images/bwpfp.jpeg'
+import PFPKEVINcrop from '../public/images/PFPKEVINcrop.jpeg'
 import marcainstitut from '../public/images/marcainstitut.jpg'
 import codingschool from '../public/images/codingschool.png'
 import flowdigital from '../public/images/flowdigital.png'
@@ -14,12 +14,12 @@ function AboutMe() {
         <div className='items-center w-full rounded-lg shadow-lg shadow-black sm:aboutflex justify-center'>
         <div className='drop-shadow-2xl w-auto'>
                 <Image 
-                className='grayscale rounded-full sm:rounded-xl'
-                src={bwpfp}
+                className='rounded-full sm:rounded-xl'
+                src={PFPKEVINcrop}
                 alt='picture of kevin'
                 priority
-                height='500px'
-                width='500px'
+                width='550'
+                height='500'
                 />
             </div>
             <div className='px-[20px] sm:wflex-[50%] sm:w-[50%] sm:mx-[50px] w-full text-white'>
