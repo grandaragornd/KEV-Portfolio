@@ -1,5 +1,5 @@
 import React from 'react'
-import bwpfp from '../public/images/bwpfp.jpeg'
+import pfp from '../public/images/pfp.jpeg'
 import PFPKEVINcrop from '../public/images/PFPKEVINcrop.jpeg'
 import Image from 'next/image'
 import { Link } from 'react-scroll'
@@ -9,7 +9,7 @@ function Header() {
     <>
     <div className='w-full text-center intro'>
     <div className='py-[200px] flex-col place-content-center text-white animate__animated animate__slideInUp'>
-        <Image src={PFPKEVINcrop} height='300' width='330' className='rounded-full'/>
+        <Image src={pfp} height='300' width='300' className='rounded-full'/>
         <h1 className='sm:text-4xl text-3xl py-3 textclear font-semibold'>Kevin Perea Enriquez</h1>
         <h1 className='smLtext-5xl text-4xl py-5 textclear font-bold'>Fullstack Developer</h1>
         <Link to='work' spy={true} smooth={true} offset={50} duration={500} activeClass='active'>
