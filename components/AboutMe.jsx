@@ -5,7 +5,7 @@ import codingschool from '../public/images/codingschool.png'
 import flowdigital from '../public/images/flowdigital.png'
 import cfp from '../public/images/cfp.jpg'
 import Image from 'next/image'
-import {IoIosSchool, IoIosDesktop, IoIosBriefcase, IoIosTime, IoIosBookmarks, IoMdAttach} from 'react-icons/io'
+import {IoIosSchool, IoIosDesktop, IoIosBriefcase, IoIosTime, IoIosBookmarks, IoMdAttach, IoIosListBox} from 'react-icons/io'
 
 function AboutMe() {
   return (
@@ -36,52 +36,58 @@ function AboutMe() {
 
     <div className='text-white m-5'>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 animate__animated animate__slideInUp'>
+        <div className='grid grid-cols-1 sm:grid-cols-2'>
             <div className='flex-col items-center'>
                 <div className='flex justify-center py-[30px]'>
                     <IoIosSchool size={40}/>
                     <h2 className='text-3xl pl-4'>Education</h2>  
                 </div>
-                <div className='grid sm:grid-cols-2 grid-cols-1 gap-[30px] items-start py-[30px]'>
+                <div className='grid boxflex grid-cols-1 gap-[30px] items-start py-[30px]'>
                 <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
+                <a target='_blank' rel='noreferrer' href='https://agora.xtec.cat/iesbernatmetge'>
                     <Image
                         src={marcainstitut}
                         height='200'
                         width='200'
-                        className='rounded-xl'
+                        className='rounded-lg'
                     />
-                    <div>
-                        <h3 className='text-2xl'>IES Bernat Metge</h3>
-                        <p className='py-1'>Secondary School Diploma</p>
-                        <div className='flex items-center py-1'>
-                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold'>Science and Tecnhology</span>
+                    </a>
+                    <div className='text-left'>
+                        <div>
+                        <h3 className='text-3xl font-bold'>IES Bernat Metge</h3>
+                        <p className='py-1 text-xl font-bold'>Secondary School Diploma</p>
                         </div>
-                        <div className='flex items-center py-1'>
-                            <IoIosTime size={20} /><span className='pl-2 font-semibold'>2016-2018</span>
+                        <div className='flex items-center py-2'>
+                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold text-lg'>Science and Tecnhology</span>
                         </div>
-                        <div className='flex items-center py-1'>
-                            <IoMdAttach size={20} /><a href='https://agora.xtec.cat/iesbernatmetge/' target='_blank' rel='noreferrer'> <span className='pl-2 hover:text-[red] rounded-lg font-semibold'>Website</span></a>
+                        <div className='flex items-center py-2'>
+                            <IoIosTime size={20} /><span className='pl-2 font-semibold text-lg'>2016-2018</span>
+                        </div>
+                        <div className='flex items-center py-2'>
+                            <IoMdAttach size={20} /><a href='https://agora.xtec.cat/iesbernatmetge/' target='_blank' rel='noreferrer'> <span className='hover:ease-in duration-200 transform-none hoverbutton font-bold rounded-lg font-semibold p-2 text-lg'>Website</span></a>
                         </div>
                     </div>
                 </div>
                 <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
+                <a target='_blank' rel='noreferrer' href='https://www.wbscodingschool.com/'>
                 <Image
                         src={codingschool}
                         height='200'
                         width='200'
                         className='rounded-xl'
                     />
-                    <div>
-                        <h3 className='text-2xl'>WBS Coding School</h3>
-                        <p className='py-1'>Frontend and Backend Programming</p>
-                        <div className='flex items-center py-1'>
-                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold'>Fullstack Web & App Development</span>
+                    </a>
+                    <div className='text-left'>
+                        <h3 className='text-3xl font-bold'>WBS Coding School</h3>
+                        <p className='py-1 text-xl font-bold'>Frontend & Backend Programming</p>
+                        <div className='flex items-center py-2'>
+                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold text-lg'>Fullstack Web & App</span>
                         </div>
-                        <div className='flex items-center py-1'>
-                            <IoIosTime size={20} /><span className='pl-2 font-semibold'>2022</span>
+                        <div className='flex items-center py-2'>
+                            <IoIosTime size={20} /><span className='pl-2 font-semibold text-lg'>2022</span>
                         </div>
-                        <div className='flex items-center py-1'>
-                            <IoMdAttach size={20} /><a href='https://www.wbscodingschool.com/' target='_blank' rel='noreferrer'> <span className='pl-2 hover:text-[#007398] rounded-lg font-semibold'>Website</span></a>
+                        <div className='flex items-center py-2'>
+                            <IoMdAttach size={20} /><a href='https://www.wbscodingschool.com/' target='_blank' rel='noreferrer'> <span className='hover:ease-in duration-200 transform-none hoverbutton font-bold rounded-lg font-semibold p-2 text-lg'>Website</span></a>
                         </div>
                     </div>
                 </div>
@@ -95,46 +101,54 @@ function AboutMe() {
                     <IoIosBriefcase size={40}/>
                     <h2 className='text-3xl pl-4'>Work Experience</h2>
                 </div>
-                <div className='grid sm:grid-cols-2 grid-cols-1 gap-[30px] items-start py-[30px]'>
+                <div className='grid boxflex grid-cols-1 gap-[30px] items-start py-[30px]'>
                 <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
+                    <a target='_blank' rel='noreferrer' href='https://www.flow-consult.de/'>
                     <Image
                         src={flowdigital}
                         height='200'
                         width='200'
-                        className='rounded-xl'
+                        className='rounded-lg'
                     />
-                    <div className=''>
-                        <h3 className='text-2xl'>Flow Digital</h3>
-                        <p className='py-1'>Fullstack Developer</p>
-                        <div className='flex items-center py-1'>
-                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold'>Software Developer</span>
+                    </a>
+                    <div className='text-left'>
+                            <h3 className='text-3xl font-bold'>Flow Digital</h3>
+                        <div className='flex items-center py-3'>
+                            <IoIosBookmarks size={25} /><span className='pl-2 font-bold text-lg'>Software Developer</span>
                         </div>
-                        <div className='flex items-center py-1'>
-                            <IoIosTime size={20} /><span className='pl-2 font-semibold'>2023 - Present</span>
+                        <div className='flex items-center py-2'>
+                            <IoIosTime size={25} /><span className='pl-2 font-semibold text-lg'>02/2023 - 04/2023</span>
                         </div>
-                        <div className='flex items-center py-1'>
-                            <IoMdAttach size={20} /><a href='https://www.flow-consult.de/' target='_blank' rel='noreferrer'> <span className='pl-2 hover:text-[#007398] rounded-lg font-semibold'>Website</span></a>
+                        <div className='flex items-center py-2'>
+                            <IoIosListBox size={25} /><a href='https://drive.google.com/file/d/1ePgwqYuVk091YIPyuXIPslwrXV1dJP7-/view?usp=sharing' target='_blank' rel='noreferrer'><span className='p-2 font-semibold hover:ease-in duration-200 transform-none hoverbutton font-bold text-lg'>Resume | Zeugniss</span></a>
+                        </div>
+                        <div className='flex items-center py-2'>
+                            <IoMdAttach size={25} /><a href='https://www.flow-consult.de/' target='_blank' rel='noreferrer'> <span className='hover:ease-in duration-200 transform-none hoverbutton font-bold rounded-lg font-semibold p-2 text-lg'>Website</span></a>
                         </div>
                     </div>
                 </div>
                 <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
+                <a target='_blank' rel='noreferrer' href='https://www.coronafreepass.de/'>
                     <Image
                         src={cfp}
                         height='200'
                         width='200'
                         className='rounded-xl'
                     />
-                    <div className=''>
-                        <h3 className='text-2xl'>Corona FreePass</h3>
-                        <p className='py-1'>Tester</p>
-                        <div className='flex items-center py-1'>
-                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold'>Rapid Antigen & PCR tester</span>
+                    </a>
+                    <div className='text-left'> 
+                            <h3 className='text-3xl font-bold'>Corona FreePass</h3>
+                        <div className='flex items-center py-2'>
+                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold text-lg'>Rapid Antigen & PCR tester</span>
                         </div>
-                        <div className='flex items-center py-1'>
-                            <IoIosTime size={20} /><span className='pl-2 font-semibold'>2021 - 2022</span>
+                        <div className='flex items-center py-2'>
+                            <IoIosTime size={20} /><span className='pl-2 font-semibold text-lg'>2021 - 2022</span>
                         </div>
-                        <div className='flex items-center py-1'>
-                            <IoMdAttach size={20} /><a href='https://www.coronafreepass.de/' target='_blank' rel='noreferrer'> <span className='pl-2 hover:text-[#b20aff] rounded-lg font-semibold'>Website</span></a>
+                        <div className='flex items-center py-2'>
+                            <IoIosListBox size={25} /><a href='https://drive.google.com/file/d/1oMO8M-1UiebpK56amTk1icZUaFqbSP6z/view?usp=sharing' target='_blank' rel='noreferrer'><span className='p-2 font-semibold hover:ease-in duration-200 transform-none hoverbutton font-bold text-lg'>Resume | Zeugniss</span></a>
+                        </div>
+                        <div className='flex items-center py-2'>
+                            <IoMdAttach size={20} /><a href='https://www.coronafreepass.de/' target='_blank' rel='noreferrer'> <span className='hover:ease-in duration-200 transform-none hoverbutton font-bold rounded-lg font-semibold p-2 text-lg'>Website</span></a>
                         </div>
                     </div>
                 </div>
