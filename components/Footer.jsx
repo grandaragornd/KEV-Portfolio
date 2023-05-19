@@ -16,10 +16,10 @@ export default function Footer() {
                 <a href="https://www.linkedin.com/in/kevin-perea-enriquez/" className="mr-4 md:mr-6" target='_blank' rel="noreferrer"><AiFillLinkedin size={30} className='linkedin'/></a>
             </li>
             <li className='hvr-float'>
-                <a href="https://drive.google.com/file/d/1VyB_28H4yR7V_m9imxYZAQ01L1vts5aj/view?usp=share_link" className="mr-4 hover:underline md:mr-6 " target='_blank' rel="noreferrer"><AiFillFile size={30} className='file'/></a>
+                <a href="https://github.com/grandaragornd" className="hover:underline" target='_blank' rel="noreferrer"><AiFillGithub size={30} className='github'/></a>
             </li>
             <li className='hvr-float'>
-                <a href="https://github.com/grandaragornd" className="hover:underline" target='_blank' rel="noreferrer"><AiFillGithub size={30} className='github'/></a>
+                <a href="https://drive.google.com/file/d/1bBBmeV1a4T5yVkW3PNXc_lmoTwEIJwgX/view?usp=sharing" className="mr-4 hover:underline md:mr-6 flex items-center" target='_blank' rel="noreferrer"><AiFillFile size={30} className='file'/><span>CV</span></a>
             </li>
         </ul>
     </div>
