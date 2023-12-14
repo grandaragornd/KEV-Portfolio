@@ -6,6 +6,7 @@ import tajam from '../public/images/tajam.png'
 import sopago from '../public/images/sopago.png'
 import b2b from '../public/images/b2b.png'
 import mastermindlogin from '../public/images/mastermindlogin.png'
+import gorillagymshop from '../public/images/gorillagymshop.png'
 import Image from 'next/image'
 import {AiOutlineFieldTime, AiOutlineSliders, AiOutlineLink} from 'react-icons/ai'
 
@@ -50,39 +51,7 @@ function Projects() {
                             </div>
                         </div>
                 </div>
-                    <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hvr-float">
-                        <a href='https://kev-dashboard.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
-                            <Image 
-                            src={dashboard}
-                            alt='dashboard thumbnail'
-                            height='1000'
-                            width='1000'                           
-                            />
-                        </a>
-                        <div className='p-4'>
-                            <h5 className="mb-2 text-3xl py-3">Dashboard</h5>
-                            <p className="mb-3 text-xl">Sales Overview</p>
-                            <p className='mb-3 font-normal'>Single web app with a display of sales information, customers and settings.</p>
-                            <div className='flex flex-col py-2'>
-                                <div className='flex items-center'>
-                                    <AiOutlineFieldTime size={20}/>
-                                    <p className='font-bold p-3'>1 month</p>
-                                </div>
-                                <div className='flex items-center'>
-                                    <AiOutlineSliders size={20}/>
-                                    <p className='font-bold p-3 w-full'>TailwindCSS | NextJS | ChartJS</p>
-                                </div>
-                                <div className='flex items-center'>
-                                    <AiOutlineLink size={20} />
-                                <a href='https://kev-dashboard.netlify.app/' target='_blank' rel="noreferrer">
-                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
-                                </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
+                    
                     <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hvr-float">
                         <a href='https://bkinnenfassadengmbh.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
                             <Image 
@@ -114,6 +83,39 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hvr-float">
+                        <a href='https://gorillagymshop.de/' target='_blank' className='border-[-10px]"' rel="noreferrer">
+                            <Image 
+                            src={gorillagymshop}
+                            alt='gorillagymshop thumbnail'
+                            height='1000'
+                            width='1000'                           
+                            />
+                        </a>
+                        <div className='p-4'>
+                            <h5 className="mb-2 text-3xl py-3">Gorilla Gym Shop</h5>
+                            <p className="mb-3 text-xl">Online Shop</p>
+                            <p className='mb-3 font-normal'>Shopify hosted website for merchandising.</p>
+                            <div className='flex flex-col py-2'>
+                                <div className='flex items-center'>
+                                    <AiOutlineFieldTime size={20}/>
+                                    <p className='font-bold p-3'>1 month</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <AiOutlineSliders size={20}/>
+                                    <p className='font-bold p-3 w-full'>Shopify | LiquidJS | CSS</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <AiOutlineLink size={20} />
+                                <a href='https://gorillagymshop.de/' target='_blank' rel="noreferrer">
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hvr-float">
                         <a href='https://master--b2bproduct.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
                             <Image 
@@ -142,6 +144,7 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hvr-float">
                         <a href='https://mastermindlogin.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
                             <Image 
@@ -164,6 +167,38 @@ function Projects() {
                                 <div className='flex items-center'>
                                     <AiOutlineLink size={20} />
                                 <a href='https://mastermindlogin.netlify.app/' target='_blank' rel="noreferrer">
+                                    <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col bg-[#212121] hover:bg-[#424242] justify-between rounded-lg shadow-md hvr-float">
+                        <a href='https://kev-dashboard.netlify.app/' target='_blank' className='border-[-10px]"' rel="noreferrer">
+                            <Image 
+                            src={dashboard}
+                            alt='dashboard thumbnail'
+                            height='1000'
+                            width='1000'                           
+                            />
+                        </a>
+                        <div className='p-4'>
+                            <h5 className="mb-2 text-3xl py-3">Dashboard</h5>
+                            <p className="mb-3 text-xl">Sales Overview</p>
+                            <p className='mb-3 font-normal'>Single web app with a display of sales information, customers and settings.</p>
+                            <div className='flex flex-col py-2'>
+                                <div className='flex items-center'>
+                                    <AiOutlineFieldTime size={20}/>
+                                    <p className='font-bold p-3'>1 month</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <AiOutlineSliders size={20}/>
+                                    <p className='font-bold p-3 w-full'>TailwindCSS | NextJS | ChartJS</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <AiOutlineLink size={20} />
+                                <a href='https://kev-dashboard.netlify.app/' target='_blank' rel="noreferrer">
                                     <p className='text-md hover:ease-in duration-200 transform-none hoverbutton font-bold p-3'>Website</p>
                                 </a>
                                 </div>
