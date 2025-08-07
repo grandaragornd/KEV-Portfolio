@@ -4,6 +4,7 @@ import marcainstitut from '../public/images/marcainstitut.jpg'
 import codingschool from '../public/images/codingschool.png'
 import flowdigital from '../public/images/flowdigital.png'
 import cfp from '../public/images/cfp.jpg'
+import tsys from '../public/images/tsys.jpg'
 import Image from 'next/image'
 import {IoIosSchool, IoIosDesktop, IoIosBriefcase, IoIosTime, IoIosBookmarks, IoMdAttach, IoIosListBox} from 'react-icons/io'
 
@@ -24,9 +25,9 @@ function AboutMe() {
             </div>
             <div className='px-[20px] sm:wflex-[50%] sm:w-[50%] sm:mx-[50px] w-full text-white'>
                 <h2 className='text-4xl py-4 font-bold animate__animated animate__slideInUp'>About Me</h2>
-                <h2 className='font-semibold text-xl py-4 animate__animated animate__slideInUp'>I&apos;m Kevin, a Web Developer working as a Software Developer at <a href='https://www.flow-consult.de/' target='_blank' rel='noreferrer' className='hover:text-[#0A66C2] cursor-pointer'>Digital Flow</a> creating solutions (web apps, user interfaces and platforms) with an incredible and experienced team located in Germany.</h2>
+                <h2 className='font-semibold text-xl py-4 animate__animated animate__slideInUp'>I&apos;m Kevin, a Web Developer working as a Software Developer creating solutions (web apps, user interfaces and platforms) by myself.</h2>
                 <p className='text-xl animate__animated animate__slideInUp'>
-                I&apos;m a 22-year-old born in Cali, Colombia, raised in Barcelona, Spain and based in Hamburg, Germany focused on Web Development and Programming, creating Landing Pages, Web Apps and Ecommerce Webpages.<br /> <br />
+                I&apos;m a 24-year-old born in Cali, Colombia, raised in Barcelona, Spain and based in Hamburg, Germany focused on Web Development and Programming, creating Landing Pages, Web Apps and Ecommerce Webpages.<br /> <br />
                 In 2022, I studied at <a href='https://www.wbscodingschool.com/' target='_blank' rel='noreferrer' className='hover:text-[#0A66C2] cursor-pointer'>WBS Coding School</a>, located in Germany, where I improved my web-development, programming and design skills.
                 </p>
             </div>
@@ -151,6 +152,27 @@ function AboutMe() {
                             <IoMdAttach size={20} /><a href='https://www.coronafreepass.de/' target='_blank' rel='noreferrer'> <span className='hover:ease-in duration-200 transform-none hoverbutton font-bold rounded-lg font-semibold p-2 text-lg'>Website</span></a>
                         </div>
                     </div>
+                    <a target='_blank' rel='noreferrer' href='https://www.tsys.com/'>
+                    <Image
+                        src={tsys}
+                        height='200'
+                        width='200'
+                        className='rounded-xl'
+                    />
+                    </a>
+                    <div className='text-left'> 
+                            <h3 className='text-3xl font-bold'>TSYS EMEA</h3>
+                        <div className='flex items-center py-2'>
+                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold text-lg'>Dispute and Chargeback Specialist</span>
+                        </div>
+                        <div className='flex items-center py-2'>
+                            <IoIosTime size={20} /><span className='pl-2 font-semibold text-lg'>2024 - current</span>
+                        </div>
+                        <div className='flex items-center py-2'>
+                            <IoMdAttach size={20} /><a href='https://www.tsys.com/' target='_blank' rel='noreferrer'> <span className='hover:ease-in duration-200 transform-none hoverbutton font-bold rounded-lg font-semibold p-2 text-lg'>Website</span></a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             </div>
