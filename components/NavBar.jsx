@@ -87,7 +87,7 @@ import React, {useState, useEffect } from 'react'
                 <a href="https://github.com/grandaragornd" className="hover:underline" target='_blank' rel="noreferrer"><AiFillGithub size={30} className='github'/></a>
             </li>
             <li className='hvr-float'>
-                <a href="https://drive.google.com/file/d/1bBBmeV1a4T5yVkW3PNXc_lmoTwEIJwgX/view?usp=sharing" className="mr-4 hover:underline md:mr-6 flex items-center" target='_blank' rel="noreferrer"><AiFillFile size={30} className='file'/><span>CV</span></a>
+                <a href="https://drive.google.com/file/d/1iQkob40dLV_ipPJm74_1z2_4s8D25wyN/view?usp=sharing" className="mr-4 hover:underline md:mr-6 flex items-center" target='_blank' rel="noreferrer"><AiFillFile size={30} className='file'/><span>CV</span></a>
             </li> 
         </ul>
                         </div>

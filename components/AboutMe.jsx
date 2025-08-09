@@ -3,6 +3,7 @@ import PFPKEVINcrop from '../public/images/PFPKEVINcrop.jpeg'
 import marcainstitut from '../public/images/marcainstitut.jpg'
 import codingschool from '../public/images/codingschool.png'
 import flowdigital from '../public/images/flowdigital.png'
+import pfp3 from '../public/images/pfp3.jpg'
 import cfp from '../public/images/cfp.jpg'
 import tsys from '../public/images/tsys.jpg'
 import Image from 'next/image'
@@ -16,19 +17,15 @@ function AboutMe() {
         <div className='drop-shadow-2xl w-auto'>
                 <Image 
                 className='rounded-full sm:rounded-xl'
-                src={PFPKEVINcrop}
+                src={pfp3}
                 alt='picture of kevin'
                 priority
-                width='550'
-                height='500'
                 />
             </div>
             <div className='px-[20px] sm:wflex-[50%] sm:w-[50%] sm:mx-[50px] w-full text-white'>
                 <h2 className='text-4xl py-4 font-bold animate__animated animate__slideInUp'>About Me</h2>
-                <h2 className='font-semibold text-xl py-4 animate__animated animate__slideInUp'>I&apos;m Kevin, a Web Developer working as a Software Developer creating solutions (web apps, user interfaces and platforms) by myself.</h2>
                 <p className='text-xl animate__animated animate__slideInUp'>
-                I&apos;m a 24-year-old born in Cali, Colombia, raised in Barcelona, Spain and based in Hamburg, Germany focused on Web Development and Programming, creating Landing Pages, Web Apps and Ecommerce Webpages.<br /> <br />
-                In 2022, I studied at <a href='https://www.wbscodingschool.com/' target='_blank' rel='noreferrer' className='hover:text-[#0A66C2] cursor-pointer'>WBS Coding School</a>, located in Germany, where I improved my web-development, programming and design skills.
+                I’m a 24-year-old full-stack developer, raised in Barcelona and currently based in Hamburg, Germany. With strong skills in JavaScript, HTML, and CSS, I create efficient, user-friendly web solutions. My background in IT support has sharpened my problem-solving abilities, attention to detail, and communication skills, allowing me to collaborate effectively and deliver high-quality results.
                 </p>
             </div>
         </div>
@@ -129,30 +126,7 @@ function AboutMe() {
                     </div>
                 </div>
                 <div className='rounded-lg flex-col flex items-center justify-center gap-5 max-w-[40rem]'>
-                <a target='_blank' rel='noreferrer' href='https://www.coronafreepass.de/'>
-                    <Image
-                        src={cfp}
-                        height='200'
-                        width='200'
-                        className='rounded-xl'
-                    />
-                    </a>
-                    <div className='text-left'> 
-                            <h3 className='text-3xl font-bold'>Corona FreePass</h3>
-                        <div className='flex items-center py-2'>
-                            <IoIosBookmarks size={20} /><span className='pl-2 font-semibold text-lg'>Rapid Antigen & PCR tester</span>
-                        </div>
-                        <div className='flex items-center py-2'>
-                            <IoIosTime size={20} /><span className='pl-2 font-semibold text-lg'>2021 - 2022</span>
-                        </div>
-                        <div className='flex items-center py-2'>
-                            <IoIosListBox size={25} /><a href='https://drive.google.com/file/d/1oMO8M-1UiebpK56amTk1icZUaFqbSP6z/view?usp=sharing' target='_blank' rel='noreferrer'><span className='p-2 font-semibold hover:ease-in duration-200 transform-none hoverbutton font-bold text-lg'>Resume | Zeugniss</span></a>
-                        </div>
-                        <div className='flex items-center py-2'>
-                            <IoMdAttach size={20} /><a href='https://www.coronafreepass.de/' target='_blank' rel='noreferrer'> <span className='hover:ease-in duration-200 transform-none hoverbutton font-bold rounded-lg font-semibold p-2 text-lg'>Website</span></a>
-                        </div>
-                    </div>
-                    <a target='_blank' rel='noreferrer' href='https://www.tsys.com/'>
+                <a target='_blank' rel='noreferrer' href='https://www.tsys.com/'>
                     <Image
                         src={tsys}
                         height='200'
@@ -172,12 +146,9 @@ function AboutMe() {
                             <IoMdAttach size={20} /><a href='https://www.tsys.com/' target='_blank' rel='noreferrer'> <span className='hover:ease-in duration-200 transform-none hoverbutton font-bold rounded-lg font-semibold p-2 text-lg'>Website</span></a>
                         </div>
                     </div>
-
                 </div>
             </div>
             </div>
-            
-
         </div>
     </div>
     </>
